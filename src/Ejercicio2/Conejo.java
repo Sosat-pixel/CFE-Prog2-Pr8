@@ -11,11 +11,6 @@ public class Conejo  extends Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "nombre: " + this.nombre + '\'' +
-                ", edad: " + this.edad +
-                ", peso: " + this.peso + " KG " +
-                ", especie: " + this.especie + '\'' +
-                '}';
+        return super.toString() + ", peso: " + this.peso + ")" ;
     }
 }

@@ -12,11 +12,6 @@ public class Gato extends Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "nombre: " + this.nombre + '\'' +
-                ", edad: " + this.edad +
-                ", color: " + this.edad +
-                ", especie: " + this.especie + '\'' +
-                '}';
+        return super.toString() + ", color: " + this.color + ")";
     }
 }

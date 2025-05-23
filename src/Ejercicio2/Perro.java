@@ -12,11 +12,7 @@ public class Perro extends Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "nombre: " + this.nombre + '\'' +
-                ", edad: " + this.edad +
-                ", raza: " + this.raza +
-                ", especie: " + this.especie + '\'' +
-                '}';
+        return super.toString() + ", raza: " + this.raza + ")" ;
+
     }
 }
